@@ -6,3 +6,6 @@ This code uses PySpark to analyze a text file. It calculates and prints the leng
 
 "2.Accumulators.ipynb->
     The program uses an accumulator to count the even numbers in an RDD. It showcases how accumulators enable parallel aggregation of data across worker nodes and safely return the result to the driver program.
+
+3.KeyValueReduceExample->
+    reduceByKey() transformation to directly compute the sum of values for each key.
